@@ -1,0 +1,74 @@
+body{
+    background-color: #850000;
+    width: 100%;
+    height: 90%;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+#left-bar{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 2%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#right-bar{
+    width: 70%;
+    padding: 2% 2% 2% 0%;
+    height: 100%;
+
+    
+}
+
+.container{
+    background-color: whitesmoke;
+    border-radius: 10px;
+    width: 100%;
+    box-shadow: 5px 5px 10px;
+    text-align: center;
+}
+
+
+#player_one_box{
+    height: 48%;
+}
+#player_two_box{
+    height: 48%;
+    
+}
+
+#game_box{
+    height: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   
+}
+
+#game_area{
+    width: 50vw;
+    height: 35vw;
+    justify-self: center;
+     max-width: 50%;
+     margin: auto 0;
+
+}
+.game_row{
+    display: flex;
+    flex-direction: row;
+    height: 33%;
+}
+.inner_box{
+    width: 33%;
+    height: 100%;
+    border: solid 2px #850000;
+    background-size: contain;
+}
+

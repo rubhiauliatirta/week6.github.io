@@ -1,0 +1,47 @@
+<html>
+
+<head>
+    <title>1P TicTacToe</title>
+    <link rel="stylesheet" type="text/css" href="./tictactoe.css" />
+</head>
+
+<body>
+    <div id="left-bar">
+        <div id="player_one_box" class="container">
+            <h2 style="font-size:2vw;">Player 1</h2>
+            <h2 style="font-size:2vw;">O</h2>
+            <h4 style="font-size:1.5vw;">Score:</h4>
+            <h1 id="score1" style="font-size:3vw;">0</h1>
+        </div>
+        <div id="player_two_box" class="container">
+            <h2 style="font-size:2vw;">Computer</h2>
+            <h2 style="font-size:2vw;">X</h2>
+            <h4 style="font-size:1.5vw;">Score:</h4>
+            <h1 id="score2" style="font-size:3vw;">0</h1>
+        </div>
+    </div>
+    <div id="right-bar">
+        <div id="game_box" class="container">
+            <div id="game_area">
+                <div class="game_row">
+                    <div id="00" class="inner_box" onmouseover="boxHover(this);" onmouseout="boxUnhover(this);" onclick="boxClick(this);"></div>
+                    <div id="01" class="inner_box" onmouseover="boxHover(this);" onmouseout="boxUnhover(this);" onclick="boxClick(this);"></div>
+                    <div id="02" class="inner_box" onmouseover="boxHover(this);" onmouseout="boxUnhover(this);" onclick="boxClick(this);"></div>
+                </div>
+                <div class="game_row">
+                    <div id="10" class="inner_box" onmouseover="boxHover(this);" onmouseout="boxUnhover(this);" onclick="boxClick(this);"></div>
+                    <div id="11" class="inner_box" onmouseover="boxHover(this);" onmouseout="boxUnhover(this);" onclick="boxClick(this);"></div>
+                    <div id="12" class="inner_box" onmouseover="boxHover(this);" onmouseout="boxUnhover(this);" onclick="boxClick(this);"></div>
+                </div>
+                <div class="game_row">
+                    <div id="20" class="inner_box" onmouseover="boxHover(this);" onmouseout="boxUnhover(this);" onclick="boxClick(this);"></div>
+                    <div id="21" class="inner_box" onmouseover="boxHover(this);" onmouseout="boxUnhover(this);" onclick="boxClick(this);"></div>
+                    <div id="22" class="inner_box" onmouseover="boxHover(this);" onmouseout="boxUnhover(this);" onclick="boxClick(this);"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="tictactoe1P.js"></script>
+</body>
+
+</html>
